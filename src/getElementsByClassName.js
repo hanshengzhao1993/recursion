@@ -6,5 +6,14 @@
 // But instead we're going to implement it from scratch:
 var getElementsByClassName = function(className
 ) {
-  // your code here
+	var answer = [];
+
+	var body = document.body.childNodes;
+
+	for(var i = 0; i < body.length ; i++){
+		
+	}
+  
+
+  	return answer;
 };
